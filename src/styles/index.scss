@@ -1,0 +1,16 @@
+
+@import "~bootstrap/scss/bootstrap";
+@import "./Settings";
+@import "./components/Hero";
+@import "./components/Navigation";
+@import "./components/About";
+@import "./components/Team";
+@import "./components/Carousel";
+@import "./components/Communtiy";
+
+.home{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}

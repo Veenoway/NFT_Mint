@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    margin: 0 auto;
+    
+    background-color:#01030d;
+    font-family:Ubuntu;
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    cursor:pointer;
+}
+
+a:visited{
+    color:darkblue
+
+}
+
+:root{
+    --main-blue: #4753d6;
+    --second-blue:#4b6fe6fb;
+}

@@ -1,0 +1,42 @@
+.community{
+    position: relative;
+    width: 100%;
+    background: url(../../img/sky.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% left;
+    margin-top: 120px;
+    margin-bottom: 160px;
+    overflow: hidden;
+    .container{
+        padding: 100px 60px;
+
+        .robot{
+            position: absolute;
+            width: 580px;
+            height: 427px;
+            background: url(../../img/meka_blue.png) no-repeat;
+            background-size: cover;
+            bottom: 0;
+            right: 0;
+        }
+        h2{
+            color: #01030d;
+            width: 55.55%;
+            margin-bottom: 25px;
+            font-size: 3rem;
+        }
+        p{
+            width: 44.44%;
+            margin: 0 0 50px;
+        }
+        a{
+            padding: 16px 30px;
+            background: #4753d6;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+
+        }
+        
+    }
+}

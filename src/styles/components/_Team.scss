@@ -1,0 +1,120 @@
+.team{
+    margin-bottom:200px;
+    margin-top:200px !important;
+    padding-top:100px;
+    overflow:hidden;
+    max-width:1160px;
+    padding:0px 60px;
+    margin:auto;
+    .intro-team{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        margin-bottom: 150px;
+        .team-title{
+            position:relative;
+            width:44.44%;
+            text-align: right;
+            padding-right:77px;
+            .question{
+                font-size:2.6rem;
+                font-weight:700;
+                color:rgb(184, 184, 184)
+            }
+            .reply{
+                font-size:2.8rem;
+                font-weight:700;
+                line-height:2.6rem;
+                margin-top:10px;
+                background:linear-gradient(90deg, #d02561, #ff79a8);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                
+            }
+        }
+        .team-presentation{
+            width:66.66%
+        }
+    }
+}
+
+.member{
+    position:relative;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom:100px;
+    .who{
+        width: 33.33%;
+        h2{
+            color:white
+        }
+        
+        img{
+            width:100%;
+            align-self: flex-start;
+            height: 348px;
+        }
+    }
+}
+
+
+
+.spacer{    
+    position: absolute;
+    width: 1px;
+    height: calc(100% - 79px);
+    background: #aaaaaa;
+    left: 38.885%;
+    bottom: 0;
+    opacity: .4;
+    height:348px;
+}
+
+.works{
+    width:55%;
+    justify-content: space-between;
+    h2{
+        color:white
+    }
+    img{
+        width:auto;
+        height:348px
+    }
+}
+
+.social {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .link{
+        width:25%;
+        margin-top:8px;
+        a{
+            background-color: var(--main-blue);
+            padding:10px;
+            color:rgb(238, 238, 238);
+            border-radius:10px;
+            box-shadow:inset 0 0 0 var(--second-blue);
+            transition:box-shadow 300ms ease-in-out;
+            &:hover{
+                box-shadow:inset 0 -56px 0 #777777;
+                transition:box-shadow 300ms ease-in-out;
+            }
+        }
+    }
+}
+
+.top{
+    display:flex;
+    flex-direction: row;
+    margin-bottom:20px;
+}
+
+.carousel-img{
+    display:flex;
+    
+    img{
+        margin-right:20px;
+    }
+}

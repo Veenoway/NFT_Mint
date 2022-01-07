@@ -1,0 +1,48 @@
+.section{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    .about{
+        z-index:5;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        display:flex;
+        max-width:1160px;
+        padding:0 60px;
+
+        .about-description{
+            width:50%;
+            .about-title{
+                background:linear-gradient(90deg, #d02561,#FF79A8);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size:2.6rem;
+                line-height:3.4rem;
+                font-weight:700;
+                margin-bottom: 35px;
+                .tag{
+                    
+                }
+            }
+        }
+        .about-right{
+            width:50%
+        }
+    }
+}
+
+img{
+    width: 100%;
+    display:inline-block
+}
+
+p{
+    margin:30px 0 0;
+    color:rgb(168, 168, 168);
+    font-size:1.2rem;
+    line-height:2rem;
+}
+

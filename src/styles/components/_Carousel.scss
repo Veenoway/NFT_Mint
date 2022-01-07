@@ -1,0 +1,89 @@
+
+.active{
+    transform: scale(1.1);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.gallery{
+
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.8s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.8s;
+
+    .carousel-view{
+
+        overflow: hidden;
+        .carousel-inner{
+
+            display: flex;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            transition: all 0ms ease 0s;
+            transform: translateX(0px);
+           
+            .carousel-track{
+
+                width: 44.2087%;
+                
+               
+                margin: 0;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+           
+                    .carousel-item{
+                        position: relative;
+                        display: none;
+                        /* float: left; */
+                        width: 100%;
+                       
+                        -webkit-backface-visibility: hidden;
+                        backface-visibility: hidden;
+                        transition: transform 0.6s ease-in-out;
+                        
+                        
+                       
+                        
+                        display:flex;
+                    
+
+                        .d-block{
+                            width: 40vw;
+                            max-width: 440px;
+                            height: auto;
+                            margin: 30px 15px;
+                            transition: all .3s ease-in-out;
+                            
+                        }
+            
+                        
+                    }
+                    
+            }
+        }
+
+        
+    }
+}
+
+.meka{
+   max-width:500px;
+}
+
+.contain{
+    
+    width:100%;
+    max-width:1600px;
+    overflow: hidden;
+    margin-top:-40px;
+}
+
+.slid{
+    width:44% !important
+}
