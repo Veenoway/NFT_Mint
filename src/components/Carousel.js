@@ -30,29 +30,52 @@ export default class PauseOnHover extends Component {
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2000,
-      pauseOnHover: true
+      arrows: 'none',
+      autoplaySpeed: 1500,
+      pauseOnHover: true,
+      centerPadding:'100px',
+      centerMode:true,
+
+      responsive: [
+        {
+          breakpoint: 1024, // width to change options
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        }
+      ]
     };
     return (
       <div className="contain">
        
-        <Slider {...settings}>
-          <div>
+        <Slider {...settings} >
+          <div className="meka2">
           <img src={meka4} alt="meka" className="d-block meka" />
           </div>
-          <div>
+          <div className="meka2">
           <img src={meka1} alt="meka" className="d-block meka" />
           </div>
-          <div>
+          <div className="meka2">
           <img src={meka2} alt="meka" className="d-block meka" />
           </div>
-          <div>
+          <div className="meka2">
           <img src={meka5} alt="meka" className="d-block meka" />
           </div>
-          <div>
+          <div className="meka2">
           <img src={meka3} alt="meka" className="d-block meka" />
           </div>
-          <div>
+          <div className="meka2">
           <img src={meka2} alt="meka" className="d-block meka" />
           </div>
         </Slider>

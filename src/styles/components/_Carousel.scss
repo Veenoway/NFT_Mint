@@ -73,13 +73,56 @@
 }
 
 .meka{
-   max-width:500px;
+    width: 100%;
+    
+    height: auto;
+    margin-bottom: 10px;
+    transition: all .3s ease-in-out;
+    
+    padding:0 20px;
+   &:hover {
+    
+    
+    
+    
+}
+}
+
+.display{
+    display:flex;
+    align-items:center;
+}
+
+.slick-center {
+    transform: scale(1.12);
+    margin-left:20px;
+    margin-right:20px;
+    padding-left:20px;
+    margin-top:10px;
+    transition: all .3s ease-in-out;
+}
+
+.slick-list { 
+    padding:10px 80px !important;
+    margin-left:0px !important;
+  }
+
+  .slick-slide {
+	
+    margin-left:0px !important;
+}
+
+.slick-track{
+    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .contain{
-    
+    height:auto;
+    max-height:550px;
     width:100%;
-    max-width:1600px;
+    max-width:100%;
     overflow: hidden;
     margin-top:-40px;
 }
@@ -87,3 +130,15 @@
 .slid{
     width:44% !important
 }
+
+@media (min-width: 1980px) {
+    .contain{
+        height:100% !important;
+        max-height:800px;
+        width:100%;
+        max-width:100%;
+        overflow: hidden;
+        margin-top:-40px;
+    }
+}
+

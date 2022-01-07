@@ -1,9 +1,11 @@
 
 
+import { Carousel } from "bootstrap";
 import img from "../img/meka.jpg";
 import img2 from "../img/meka4.jpg";
 import niho from "../img/niho.jfif"
 import niho2 from "../img/niho2.jfif";
+import CarouselArt from "./CarouselArt";
 
 const Team = () => {
 
@@ -48,11 +50,7 @@ const Team = () => {
                             
                         </div>
                     </div>
-                    <section className="carousel-img">
-                        <img src={niho} className="" />
-                        <img src={niho2} className="" />
-
-                    </section>
+                    <CarouselArt />
                 </div>
             </div>
             <div className="member row">
@@ -85,11 +83,7 @@ const Team = () => {
                             
                         </div>
                     </div>
-                    <section className="carousel-img">
-                        <img src={niho} className="" />
-                        <img src={niho2} className="" />
-
-                    </section>
+                    <CarouselArt />
                 </div>
             </div>
         </section>
